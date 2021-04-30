@@ -1,15 +1,4 @@
 
-<!DOCTYPE html>
-<html>  
-<body>  
-<form method="post">  
-Enter Number:  
-<input type="number" name="number1" /><br><br>  
-Enter Unluckey Number:  
-<input type="number" name="number2" /><br><br>  
-<input  type="submit" name="submit" value="Result">  
-</form>  
-
 <?php
 if(isset($_POST['submit'])){
     {  
@@ -31,6 +20,3 @@ if(isset($_POST['submit'])){
 	}
 }
 ?>
-
-</body>
-</html>
